@@ -1,2 +1,12 @@
 Code in this repository is used for analyisng the intererogram from atoms passing through a multi-slit grating. This matter-wave interferometer deomnstrates 
 the matter-wave duality of atoms and the resulting pattern can be used to determine the atom's velocity when passing through the grating.
+
+The input data was the image o accumualted atomic position measurements processed in 'Matter-wave aquisition'. A horizontal profile of the interfernce pattern 
+is uploaded in the initial data input section.
+
+The data is standardised and trimmed. In some cases the data is also filtered.
+
+Regression analysis was used to fit the equation taken from previous research to the data. A polynomial least squares analysis was used to find the atomic mean velocity 
+and velocity spread.
+
+The large number of variables required mapping the residual across the 2-D parameter space
